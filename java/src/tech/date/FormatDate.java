@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
+ * tech#702
  *  Format the date object and return the string or print it.
  * @author Kansakar
  *
