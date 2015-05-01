@@ -1,5 +1,6 @@
 package tech.hello;
 /**
+ * tech#705
  * To use the normal method in main class, which is not static in nature
  * @author Kansakar
  *

@@ -1,6 +1,7 @@
 package tech.hello;
 
 /**
+ * tech#704
  * Try to access the instance variable.
  * @author Kansakar
  *
