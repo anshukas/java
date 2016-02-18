@@ -1,4 +1,4 @@
-package tech.collection;
+package tech.rough.collection;
 
 public class Student implements Comparable<Student>{
 	private int age;

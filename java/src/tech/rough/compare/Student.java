@@ -1,4 +1,4 @@
-package tech.compare;
+package tech.rough.compare;
 
 // SEE: there is no access modifier on Student class, that means this has package scope
 class Student implements Comparable<Student> {

@@ -1,4 +1,4 @@
-package tech.compare;
+package tech.rough.compare;
 /**
  * Comparable is an interface used for compare the object.
  * 
