@@ -12,7 +12,7 @@ public class LearnSet {
 	private static Set<Student> set = new HashSet<Student>();
 	
 	public static void main(String[] args){
-		// create one obejct of student
+		// create one object of student
 		Student s1 = new Student();
 		s1.setAge(101);
 		s1.setFname("Cnshu");
