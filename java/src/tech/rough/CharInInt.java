@@ -6,7 +6,7 @@ package tech.rough;
  */
 public class CharInInt {
 	public static void main(String[] args){
-		char ch = 326;
-		System.out.println(126+10);
+		char ch = 126;
+		System.out.println(ch+10);
 	}
 }
