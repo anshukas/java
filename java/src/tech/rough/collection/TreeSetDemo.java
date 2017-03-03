@@ -1,4 +1,4 @@
-package tech.rough;
+package tech.rough.collection;
 
 import java.util.TreeSet;
 import java.util.Set;

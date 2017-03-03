@@ -1,4 +1,4 @@
-package tech.rough;
+package tech.rough.collection;
 /**
  * Write comment hello
  */
