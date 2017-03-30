@@ -11,26 +11,29 @@ import java.util.Properties;
  *
  */
 public class ReadProperties {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		/** loading resource using getResourceAsStream(String name); */
-			readConfigPropertiesFile();
+		readConfigPropertiesFile();
 	}
 
 	private static void readConfigPropertiesFile() {
-		InputStream in = ReadProperties.class.getResourceAsStream("config.properties");
-		
+		InputStream in = ReadProperties.class
+				.getResourceAsStream("config.properties");
+
 		Properties config = new Properties();
-		
+
 		try {
 			config.load(in);
 			System.out.println(config.getProperty("database"));
 		} catch (IOException e) {
 			e.printStackTrace();
-		}finally{
-			try {
-				in.close();
-			} catch (IOException e) {
-				e.printStackTrace();
+		} finally {
+			if (in != null) {
+				try {
+					in.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}
 		}
 	}
